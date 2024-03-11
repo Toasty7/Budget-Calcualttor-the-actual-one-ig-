@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-color: black;
+  }
+  
+  body {
+    background-color: #BAFFA9;
+  }
+  
+  .page-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 5%;
+  }
+  
+  h1 {
+    border-bottom: solid 2px black;
+    width: 350px;
+    margin: 0 5%;
+    padding: auto;
+  }
+  
+  .left-column {
+    width: 50%;
+    padding-top: 40px;
+  }
+  
+  .right-column {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .location {
+    width: 100%;
+    margin: 5%;
+  }
+  
+  .choices {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-around;
+    overflow-y: scroll;
+    height: 80vh;
+    width: 30vw;
+  }
+  
+  .career {
+    display: flex;
+    justify-content: center;
+    background-color: #F8BABA;
+    padding-left: 20px;
+    border-color: black;
+  }
+  
+  .payroll {
+    width: 100%;
+    margin-top: 25%;
+  }
+  
+  button {
+    background-color: transparent;
+    border-style: hidden;
+    font-size: larger;
+  }
+  
+  button:hover {
+    background-color: #db5a5a;
+  }
+  
+  section p {
+    margin: 15px;
+  }
+  
+  .styledButton {
+    border: solid;
+    background-color: white;
+    width: 25px;
+    border-radius: 25%;
+  }
+  
+  .styledButton:hover {
+    background-color: #B5E8EF;
+  }
+  
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 50%;
+    max-height: fit-content;
+  }
+  
+  .rightRow {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  [role='row'] {
+    display: flex;
+  }
+  
+  /*fonts*/
+  
+    .pt-serif-regular {
+      font-family: "PT Serif", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+    .pt-serif-bold {
+      font-family: "PT Serif", serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+  
+    .pt-serif-regular-italic {
+      font-family: "PT Serif", serif;
+      font-weight: 400;
+      font-style: italic;
+    } 
+  
+    .pt-serif-bold-italic {
+     font-family: "PT Serif", serif;
+     font-weight: 700;
+      font-style: italic;
+    }
+  
+  
+  .monthyExpense {
+    background-color: #B5E8EF;
+    display: flex;
+    border: black;
+    
+  }
+  
+  
+  .monthyAmount {
+    width: 30%;
+    margin-top: 25px;
+    font-size: 20px;
+    border: black;
+    padding-left: 3px;
+  }
+  
+  .amountRow {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 6px;
+  }
+  
+  .amount {
+    background-color: #F8BABA;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: black;
+    border-top-color: black ;
+    padding-left: 10%;
+  }

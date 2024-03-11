@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BIG Budget Calculator </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="utils.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <h1>Budget Calculator</h1>
+        <div class="page-wrapper">
+            <section class="left-column">
+                <h2>Household income</h2>
+                <div class="choices">
+                    <!-- This is built by the JS  -->
+                </div>
+            </section>
+            <section class="rightColumn">
+                <div role="row" class="rightRow">
+                    <label for="grossAnnual">Gross Annual Income</label>
+                    <input type="number" id="grossAnnual" name="grossAnnual">
+                    <label for="grossMonthly">Gross Annual Income</label>
+                    <input type="number" id="grossMonthly" name="grossMonthly">
+                    <section class="location">
+                        <h2>Location</h2>
+                        <input type="text" placeholder="Enter a location">
+                    </section>
+
+                    <section class="location">
+                        <h2 >Adults</h2>
+                        <button class="styledButton">1</button>
+                        <button class="styledButton">2</button>
+                    </section>
+
+                    <section class="location">
+                        <h2>Children</h2>
+                        <button class="styledButton">0</button>
+                        <button class="styledButton">1</button>
+                        <button class="styledButton">2</button>
+                        <button class="styledButton">3</button>
+                    </section>
+                </div>
+                <section class="payroll">
+                    <h2>Payroll Deductions</h2>
+                    <div class="monthyExpense">
+                        <section class="monthyAmount">
+                            <h3>Monthly expenses</h3>
+            
+                            <section class="amountRow">
+                                <section class="amountText">
+                                <h3>Fedral Taxes</h3>
+                                </section>
+                                <input type="number" placeholder="Amount" id="FederalTaxes">
+                            </section>
+            
+                            <hr>
+            
+                            <section class="amountRow">
+                                <section class="amountText">
+                                <h3>Transportation</h3>
+                                </section>
+                                <input type="number" placeholder="Amount" id="StateTaxes">
+                            </section>
+            
+                            <hr>
+            
+                            <section class="amountRow">
+                                <section class="amountText">
+                                <h3>Social security</h3>
+                                </section>
+                                <input type="number" placeholder="Amount" id="Socialsecurity">
+                            </section>
+            
+                            <hr>
+            
+                            <section class="amountRow">
+                                <section class="amountText">
+                                <h3>Medicare</h3>
+                                </section>
+                                <input type="number" placeholder="Amount" id="Medicare">
+                            </section>
+            
+                            <hr>
+            
+                            <section class="amountRow">
+                                <section class="amountText">
+                                    <h3>State State Disablity</h3>
+                                </section>
+                                <input type="number" placeholder="Amount" id="StateDisablity">
+                            </section>
+            
+                            <hr>
+            
+                            <section class="amountRow">
+                                <section class="amountText">
+                                <h3>Retirement investment</h3>
+                                </section>
+                                <input type="number" placeholder="Amount" id="Retirementinvestment">
+                            </section>
+            
+                            <hr>
+            
+                            <hr>
+            
+                            <section class="amountRow">
+                                <section class="amountText">
+                                <h3>Medical inasurance</h3>
+                                </section>
+                                <input type="number" placeholder="Amount" id="Medicalinasurance">
+                            </section>
+                            
+                            <hr>
+                            
+                            <hr>
+            
+                            <section class="amountRow">
+                                <section class="amountText">
+                                <h3>Total</h3>
+                                </section>
+                                <input type="number" placeholder="Amount" id="Total">
+                            </section>
+                            
+                            <hr>
+
+                        </div>
+                    </section>
+                </section>
+                
+            </section>
+        </div>
+        
+    </main>
+
+</body>
+
+</html>
